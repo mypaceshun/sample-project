@@ -1,0 +1,16 @@
+# Python
+__pycache__
+
+# Poetry
+.venv
+
+# pytest
+.pytest_cache
+
+# pytest-cov
+.coverage
+coverage.xml
+htmlcov
+
+# Sphinx
+build-docs
