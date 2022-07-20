@@ -36,6 +36,9 @@ mypy = "^0.971"
 types-setuptools = "^63.2.0"
 Sphinx = "^5.0.2"
 
+[tool.poetry.scripts]
+command = "sample_project.command:cli"
+
 [tool.poetry-dynamic-versioning]
 enable = true
 vcs = "git"

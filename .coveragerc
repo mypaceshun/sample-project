@@ -1,0 +1,2 @@
+[run]
+omit = src/sample_project/command.py
