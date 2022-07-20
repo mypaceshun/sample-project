@@ -4,6 +4,13 @@ version = "0.9.0"
 description = "Python Sample Project"
 authors = ["KAWAI Shun <mypaceshun@gmail.com>"]
 license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/mypaceshun/sample-project"
+documentation = "https://mypaceshun-sample-project.readthedocs.io/"
+keywords = [
+  "Python",
+  "sample",
+]
 packages = [
   { include = "sample_project", from = "src" }
 ]
